@@ -42,3 +42,5 @@
 [2018-09-25 09:27:51.538] [exthost1] [info] ExtensionService#loadCommonJSModule /home/bridgeit/.vscode/extensions/kokororin.vscode-phpfmt-1.0.30/out/src/extension
 [2018-09-25 09:27:51.545] [exthost1] [info] ExtensionService#_doActivateExtension MehediDracula.php-constructor {"startup":false,"activationEvent":"onLanguage:php"}
 [2018-09-25 09:27:51.545] [exthost1] [info] ExtensionService#loadCommonJSModule /home/bridgeit/.vscode/extensions/mehedidracula.php-constructor-0.0.10/src/extension
+[2018-09-25 12:41:01.843] [exthost1] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"activationEvent":"onLanguage:html"}
+[2018-09-25 12:41:01.843] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain

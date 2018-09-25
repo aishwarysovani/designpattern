@@ -1,5 +1,7 @@
 <?php
- 
+/**
+ * factory class give defination for all types 
+ */
 class computerFactory {
  
     public function __construct() {
