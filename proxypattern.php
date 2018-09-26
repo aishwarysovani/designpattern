@@ -53,8 +53,8 @@ class CommandExecutorProxy implements CommandExecutor {
 
 }
 
-//$executor = new CommandExecutorProxy("abc", "wrong_pwd");
-$executor=new CommandExecutorProxy("Pankaj","J@urnalDev");
+$executor = new CommandExecutorProxy("abc", "wrong_pwd");
+//$executor=new CommandExecutorProxy("Pankaj","J@urnalDev");
 		try {
             $executor->runCommand("ls -ltr");
             echo"\n";

@@ -1,0 +1,38 @@
+[2018-09-26 09:23:52.302] [exthost1] [info] extension host started
+[2018-09-26 09:23:52.755] [exthost1] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2018-09-26 09:23:52.755] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/out/extension
+[2018-09-26 09:23:52.916] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-09-26 09:23:52.916] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2018-09-26 09:23:53.027] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-09-26 09:23:53.027] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2018-09-26 09:23:53.659] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-09-26 09:23:53.659] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-09-26 09:23:54.597] [exthost1] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2018-09-26 09:23:54.597] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/search-rg/out/extension
+[2018-09-26 09:23:54.755] [exthost1] [info] ExtensionService#_doActivateExtension oneofone.save-runner {"startup":true,"activationEvent":"*"}
+[2018-09-26 09:23:54.755] [exthost1] [info] ExtensionService#loadCommonJSModule /home/bridgeit/.vscode/extensions/oneofone.save-runner-1.2.2/out/extension
+[2018-09-26 09:23:55.835] [exthost1] [info] ExtensionService#_doActivateExtension Sophisticode.php-formatter {"startup":true,"activationEvent":"*"}
+[2018-09-26 09:23:55.835] [exthost1] [info] ExtensionService#loadCommonJSModule /home/bridgeit/.vscode/extensions/sophisticode.php-formatter-0.2.4/out/extension
+[2018-09-26 09:23:55.931] [exthost1] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"activationEvent":"onLanguage:php"}
+[2018-09-26 09:23:55.931] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/php-language-features/out/phpMain
+[2018-09-26 09:23:56.404] [exthost1] [info] ExtensionService#_doActivateExtension bmewburn.vscode-intelephense-client {"startup":false,"activationEvent":"onLanguage:php"}
+[2018-09-26 09:23:56.404] [exthost1] [info] ExtensionService#loadCommonJSModule /home/bridgeit/.vscode/extensions/bmewburn.vscode-intelephense-client-0.8.8/out/src/extension
+[2018-09-26 09:23:56.870] [exthost1] [info] ExtensionService#_doActivateExtension felixfbecker.php-intellisense {"startup":false,"activationEvent":"onLanguage:php"}
+[2018-09-26 09:23:56.870] [exthost1] [info] ExtensionService#loadCommonJSModule /home/bridgeit/.vscode/extensions/felixfbecker.php-intellisense-2.3.5/out/extension
+[2018-09-26 09:23:57.249] [exthost1] [info] ExtensionService#_doActivateExtension ikappas.phpcs {"startup":false,"activationEvent":"onLanguage:php"}
+[2018-09-26 09:23:57.249] [exthost1] [info] ExtensionService#loadCommonJSModule /home/bridgeit/.vscode/extensions/ikappas.phpcs-1.0.5/out/src/extension
+[2018-09-26 09:23:57.390] [exthost1] [info] ExtensionService#_doActivateExtension kokororin.vscode-phpfmt {"startup":false,"activationEvent":"onLanguage:php"}
+[2018-09-26 09:23:57.390] [exthost1] [info] ExtensionService#loadCommonJSModule /home/bridgeit/.vscode/extensions/kokororin.vscode-phpfmt-1.0.30/out/src/extension
+[2018-09-26 09:23:57.455] [exthost1] [info] ExtensionService#_doActivateExtension MehediDracula.php-constructor {"startup":false,"activationEvent":"onLanguage:php"}
+[2018-09-26 09:23:57.455] [exthost1] [info] ExtensionService#loadCommonJSModule /home/bridgeit/.vscode/extensions/mehedidracula.php-constructor-0.0.10/src/extension
+[2018-09-26 09:24:00.106] [exthost1] [info] eager extensions activated
+[2018-09-26 17:05:46.768] [exthost1] [info] ExtensionService#_doActivateExtension ms-vscode.node-debug2 {"startup":false,"activationEvent":"onDebugInitialConfigurations"}
+[2018-09-26 17:05:46.768] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/ms-vscode.node-debug2/out/src/extension
+[2018-09-26 17:05:46.797] [exthost1] [info] ExtensionService#_doActivateExtension ms-vscode.node-debug {"startup":false,"activationEvent":"onDebugInitialConfigurations"}
+[2018-09-26 17:05:46.797] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/ms-vscode.node-debug/out/node/extension/extension.js
+[2018-09-26 17:05:49.709] [exthost1] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-09-26 17:05:49.709] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/configuration-editing/out/extension
+[2018-09-26 17:05:49.750] [exthost1] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-09-26 17:05:49.750] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2018-09-26 17:05:49.969] [exthost1] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-09-26 17:05:49.969] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
