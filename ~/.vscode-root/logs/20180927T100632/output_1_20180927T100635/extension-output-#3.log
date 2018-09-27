@@ -1,0 +1,4 @@
+27/9/2018, 11:34:42 AM
+----------------------
+php "/home/bridgeit/.vscode/extensions/kokororin.vscode-phpfmt-1.0.30/node_modules/phpfmt/fmt.phar" --psr2 --indent_with_space=4 /tmp/temp-vtqnqcc.php
+

@@ -1,60 +1,83 @@
 <?php
+//interface for operation function
+interface operation
+{
+    public function perform($a, $b);
+}
+
+//class implements interface for addition
+class Add implements operation
+{
+    public function perform($a, $b)
+    {
+        $a1 = $a + $b;
+        echo "addtion=" . $a1;
+    }
+}
+
+//class implements interface for subtraction
+class Subtract implements operation
+{
+    public function perform($a, $b)
+    {
+        $a1 = $a - $b;
+        echo "subtraction=" . $a1;
+    }
+}
+
+//class implements interface for multiplication
+class Multiply implements operation
+{
+    public function perform($a, $b)
+    {
+        $a1 = $a * $b;
+        echo "multiplication=" . $a1;
+    }
+}
+
+//class implements interface for division
+class Divide implements operation
+{
+    public function perform($a, $b)
+    {
+        if ($b == 0) {
+            throw new Exception('Division by zero.');
+        }
+        $a1 = $a / $b;
+        echo "division=" . $a1;
+    }
+}
+
+//call all class in single for avoid complexity
+class performOperation
+{
+    protected $a, $b;
+
+   function performOperation($a, $b)
+    {
+        $add = new Add();
+        $sub = new Subtract();
+        $mul = new Multiply();
+        $divide = new Divide();
+        $this->a = $a;
+        $this->b = $b;
+        $add->perform($a, $b);
+        echo "\n";
+        $sub->perform($a, $b);
+        echo "\n";
+        $mul->perform($a, $b);
+        echo "\n";
+        $divide->perform($a, $b);
+        echo "\n";
+    }
+}
+
 /**
- * interface with abstract method
+ * @a,@b
  */
-interface Shape {
-    function draw();
- }
+echo"enter two numbers to perform algebric operation:";
+$a=readline();
+$b=readline();
+$performOperation = new performOperation($a,$b);
 
-//class defination implements interface
-class Rectangle implements Shape {
-
-    function draw() {
-       echo"\nRectangle draw";
-    }
- }
-
- //class defination implements interface
-class Square implements Shape {
-
-    function draw() {
-       echo"\n Square draw";
-    }
- }
-
-//class defination implements interface
-class Circle implements Shape {
-
-    function draw() {
-       echo"\n Circle draw";
-    }
- }
-
-
-/**
- * class for implementation of all types of class in single
- */
-class ShapeMaker {
- 
-    function _construct() {
-    }
- 
-    function drawCircle(){
-       $circle = new Circle();
-       $circle->draw();
-    }
-    function drawRectangle(){
-       $rectangle = new Rectangle();
-       $rectangle->draw();
-    }
-    function drawSquare(){
-       $square = new Square();
-       $square->draw();
-    }
- }
-
- $shapeMaker = new ShapeMaker();
-      $shapeMaker->drawCircle();
-      $shapeMaker->drawRectangle();
-      $shapeMaker->drawSquare();	
 ?>

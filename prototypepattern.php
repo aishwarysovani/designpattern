@@ -1,8 +1,13 @@
 <?php
+//interface for clone function
+interface prototype{
+    public function __clone();
+}
+
 /**
  * class emplyee to get information from user
  */
-class Employee{
+class Employee implements prototype{
     private $eName;
     private $eId;
     private $age;
@@ -20,14 +25,20 @@ class Employee{
      * clone function will create prototype of previous object
      */
     public function __clone() {
-        echo"**copy of** \n name=" . $this->eName . "\n id=" . $this->eId . "\n age=" . $this->age;
+        return new Employee($this->eName,$this->eId,$this->age);
     }
 }
 
 /**
  * object creation 
  */
-$e1=new Employee('aish',3,21);
-echo"\n";
+echo"enter your name:";
+$name=readline();
+echo"\n enter your id:";
+$id=readline();
+echo"\n enter your age:";
+$age=readline();
+$e1=new Employee($name,$id,$age);
+echo"\n copy of object:\n";
 $e2 = clone $e1;
 ?>

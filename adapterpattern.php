@@ -8,7 +8,9 @@ class Socket {
    {
     
    }
- 
+   /**
+    * @v
+    */
     public function getVolt() {
        
         $v=120;

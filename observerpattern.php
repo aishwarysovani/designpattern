@@ -39,6 +39,8 @@ class CustomerListLogger implements Observer {
 
 $cl = new CustomerList();
 $cl->addObserver( new CustomerListLogger() );
-$cl->addCustomer( "pankaj" );
+echo "\n enter customer name:";
+$name=readline();
+$cl->addCustomer($name);
 
 ?>
