@@ -1,4 +1,5 @@
 <?php
+include "utility.php";
 //interface observer
 interface Observer {
   function onChanged($sender, $args);
@@ -36,11 +37,13 @@ class CustomerListLogger implements Observer {
   }
 }
 
-
+/**
+ * @name string
+ */
 $cl = new CustomerList();
 $cl->addObserver( new CustomerListLogger() );
 echo "\n enter customer name:";
-$name=readline();
+$name=validatename();
 $cl->addCustomer($name);
 
 ?>

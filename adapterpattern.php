@@ -9,7 +9,7 @@ class Socket {
     
    }
    /**
-    * @v
+    * @v int
     */
     public function getVolt() {
        

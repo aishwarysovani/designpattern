@@ -1,4 +1,5 @@
 <?php
+include "utility.php";
 //interface for operation function
 interface operation
 {
@@ -73,11 +74,11 @@ class performOperation
 }
 
 /**
- * @a,@b
+ * @a,@b int 
  */
 echo"enter two numbers to perform algebric operation:";
-$a=readline();
-$b=readline();
+$a=validatenum();
+$b=validatenum();
 $performOperation = new performOperation($a,$b);
 
 ?>

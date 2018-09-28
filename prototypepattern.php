@@ -1,4 +1,5 @@
 <?php
+include 'utility.php';
 //interface for clone function
 interface prototype{
     public function __clone();
@@ -31,13 +32,15 @@ class Employee implements prototype{
 
 /**
  * object creation 
+ * @name string
+ * @id,@age int
  */
 echo"enter your name:";
-$name=readline();
+$name=validatename();
 echo"\n enter your id:";
-$id=readline();
+$id=validatenum();
 echo"\n enter your age:";
-$age=readline();
+$age=validatenum();
 $e1=new Employee($name,$id,$age);
 echo"\n copy of object:\n";
 $e2 = clone $e1;
