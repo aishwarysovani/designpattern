@@ -1,0 +1,23 @@
+[Info  - 9:18:50 AM] 10 files total
+[Info  - 9:18:50 AM] Indexing project for definitions and static references
+Parsing file:///var/www/html/designpattern1/proxypattern.php
+Parsing file:///var/www/html/designpattern1/observerpattern.php
+Parsing file:///var/www/html/designpattern1/utility.php
+Parsing file:///var/www/html/designpattern1/singletonpattern.php
+Parsing file:///var/www/html/designpattern1/facadepattern.php
+Parsing file:///var/www/html/designpattern1/prototypepattern.php
+Parsing file:///var/www/html/designpattern1/visitorpattern.php
+Parsing file:///var/www/html/designpattern1/factorypattern.php
+Parsing file:///var/www/html/designpattern1/adapterpattern.php
+[Info  - 9:18:51 AM] Indexing project for dynamic references
+Parsing file:///var/www/html/designpattern1/proxypattern.php
+Parsing file:///var/www/html/designpattern1/observerpattern.php
+Parsing file:///var/www/html/designpattern1/utility.php
+Parsing file:///var/www/html/designpattern1/singletonpattern.php
+Parsing file:///var/www/html/designpattern1/facadepattern.php
+Parsing file:///var/www/html/designpattern1/prototypepattern.php
+Parsing file:///var/www/html/designpattern1/visitorpattern.php
+Parsing file:///var/www/html/designpattern1/factorypattern.php
+Parsing file:///var/www/html/designpattern1/adapterpattern.php
+[Info  - 9:18:51 AM] 0 Packages
+[Info  - 9:18:51 AM] All 10 PHP files parsed in 0 seconds. 140 MiB allocated.

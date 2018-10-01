@@ -11,6 +11,8 @@
 ,
 {"uri":"file:///var/www/html/designpattern1/proxypattern.php","identifiers":["commandexecutor","runcommand","commandexecutorimpl","commandexecutorproxy","false","$isadmin","$executer","__construct","true","$executor","trim","exception"]}
 ,
+{"uri":"file:///var/www/html/designpattern1/reflection.php","identifiers":["parent1","description","child","get_class","get_parent_class","icurrencyconverter","convert","gbpcurrencyconverter","$name","$rates","$var1","$var2","__construct","reflectionclass","getparentclass","getname","getinterfacenames","in_array","getmethods","print_r","hasmethod"]}
+,
 {"uri":"file:///var/www/html/designpattern1/singletonpattern.php","identifiers":["user","$instance","singleton"]}
 ,
 {"uri":"file:///var/www/html/designpattern1/utility.php","identifiers":["validatename","fscanf","stdin","preg_match","validatenum","readline"]}
