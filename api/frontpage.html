@@ -1,0 +1,84 @@
+<html>
+
+<head><script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <center>
+        <h1>Logging Form</h1>
+    </center>
+    <script>
+    function insert()
+    {
+       
+       console.log("inside insert");
+      //debugger;
+       var firstname= document.getElementById("fname").value;
+       var lastname= document.getElementById("lname").value;
+       var age=document.getElementById("age").value;
+       var mobno=document.getElementById("mobno").value;
+   // debugger;
+    var   data={fname:firstname,lname:lastname,age:age,mobno:mobno,store:'addData'};
+       $.ajax({
+           type:'POST',
+           url:"insert.php",
+            data : data,          
+           success: function(response)
+           {
+               read();
+           },
+           error:function (xhr,status,error){
+               alert("error");
+           }
+       });
+       document.getElementById("fname").value=null;
+       document.getElementById("lname").value=null;
+       document.getElementById("age").value=null;
+       document.getElementById("mobno").value=null;
+    }
+
+    function display()
+    {
+        var results="";
+        $.ajax({
+            type:'GET',
+            url:"display.php",
+            //data:{firstname:firstname},
+            dataType: 'json',
+            success: function(response){
+               alert(response);
+               if(response.status=="success"){
+             results+= "<div class='table-responsive'>";
+             results+= "<table  class='table table-bordered table-striped'>";
+             results+=  "<tr>" +
+                        "<th>First name</th>" +
+                        "<th>Last name</th>" +
+                        "<th>Age</th>" +
+                        "<th>Mob No</th>" +
+                        "</tr>";
+            $.each(response.data, function(key,data) {
+                 results+='<tr><td>'+data.fname+'</td><td>'+data.lname+'</td><td>'+data.age+'</td><td>'+data.mobno+'</td></tr>';
+            });
+            results+= "</table>";
+            results+= "</div>";
+            $(".container").html(results);
+        }else{
+            $(".container").html('No Result Found');
+          }
+           }
+        });
+        
+           
+    }
+    </script>
+</head>
+
+<body>
+    <center>
+        <div> First name: <input type="text" id="fname"><br></div><br>
+        <div> Last name: <input type="text" id="lname"><br></div><br>
+        <div> Age: <input type="text" id="age"><br></div><br>
+        <div>Mob.No.: <input type="text" id="mobno"><br></div><br>
+        <div> <button type="submit" value="submit" onclick="insert()">insert
+        <button type="submit" value="submit" onclick="display()">display</div>
+    </center>
+</body>
+
+</html>
