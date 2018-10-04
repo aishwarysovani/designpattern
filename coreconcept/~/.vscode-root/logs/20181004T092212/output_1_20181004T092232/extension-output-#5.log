@@ -1,0 +1,9 @@
+[Info  - 9:22:36 AM] 2 files total
+[Info  - 9:22:36 AM] Indexing project for definitions and static references
+Parsing file:///var/www/html/designpattern1/coreconcept/ioc.php
+Parsing file:///var/www/html/designpattern1/coreconcept/reflection.php
+[Info  - 9:22:36 AM] Indexing project for dynamic references
+Parsing file:///var/www/html/designpattern1/coreconcept/ioc.php
+Parsing file:///var/www/html/designpattern1/coreconcept/reflection.php
+[Info  - 9:22:36 AM] 0 Packages
+[Info  - 9:22:36 AM] All 2 PHP files parsed in 0 seconds. 140 MiB allocated.
