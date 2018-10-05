@@ -1,0 +1,33 @@
+[Info  - 9:28:26 AM] 15 files total
+[Info  - 9:28:26 AM] Indexing project for definitions and static references
+Parsing file:///var/www/html/designpattern1/designpattern/proxypattern.php
+Parsing file:///var/www/html/designpattern1/designpattern/observerpattern.php
+Parsing file:///var/www/html/designpattern1/designpattern/utility.php
+Parsing file:///var/www/html/designpattern1/designpattern/singletonpattern.php
+Parsing file:///var/www/html/designpattern1/designpattern/facadepattern.php
+Parsing file:///var/www/html/designpattern1/designpattern/prototypepattern.php
+Parsing file:///var/www/html/designpattern1/designpattern/visitorpattern.php
+Parsing file:///var/www/html/designpattern1/designpattern/factorypattern.php
+Parsing file:///var/www/html/designpattern1/designpattern/adapterpattern.php
+Parsing file:///var/www/html/designpattern1/api/insert.php
+Parsing file:///var/www/html/designpattern1/api/display.php
+Parsing file:///var/www/html/designpattern1/coreconcept/aop1.php
+Parsing file:///var/www/html/designpattern1/coreconcept/ioc.php
+Parsing file:///var/www/html/designpattern1/coreconcept/reflection.php
+[Info  - 9:28:26 AM] Indexing project for dynamic references
+Parsing file:///var/www/html/designpattern1/designpattern/proxypattern.php
+Parsing file:///var/www/html/designpattern1/designpattern/observerpattern.php
+Parsing file:///var/www/html/designpattern1/designpattern/utility.php
+Parsing file:///var/www/html/designpattern1/designpattern/singletonpattern.php
+Parsing file:///var/www/html/designpattern1/designpattern/facadepattern.php
+Parsing file:///var/www/html/designpattern1/designpattern/prototypepattern.php
+Parsing file:///var/www/html/designpattern1/designpattern/visitorpattern.php
+Parsing file:///var/www/html/designpattern1/designpattern/factorypattern.php
+Parsing file:///var/www/html/designpattern1/designpattern/adapterpattern.php
+Parsing file:///var/www/html/designpattern1/api/insert.php
+Parsing file:///var/www/html/designpattern1/api/display.php
+Parsing file:///var/www/html/designpattern1/coreconcept/aop1.php
+Parsing file:///var/www/html/designpattern1/coreconcept/ioc.php
+Parsing file:///var/www/html/designpattern1/coreconcept/reflection.php
+[Info  - 9:28:26 AM] 0 Packages
+[Info  - 9:28:26 AM] All 15 PHP files parsed in 0 seconds. 140 MiB allocated.

@@ -1,6 +1,6 @@
 <?php
 /**
- * @param getRateOfInterest()
+ * @getRateOfInterest()
  */
 interface Bank {
     function getRateOfInterest();
@@ -31,6 +31,7 @@ class HdfcBank implements Bank
 
 /**
  * @obj
+ * @param int
  * shows loose coupling
  */
 class BankService 

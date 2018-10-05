@@ -1,0 +1,5 @@
+{
+    "require": {
+        "mindplay/annotations": "^1.3"
+    }
+}

@@ -1,0 +1,9 @@
+[
+{"uri":"file:///var/www/html/designpattern1/coreconcept/aop.php","identifiers":["employee","$name","getname","setname","throwexception","runtimeexception","employeeservice","$employee","getemployee","setemployee","employeeaspect","getnameadvice","employeeaspectpointcut","loggingadvice","getnamepointcut","employeeaspectjoinpoint","logstringarguments","employeeafteraspect","getnamereturningadvice"]}
+,
+{"uri":"file:///var/www/html/designpattern1/coreconcept/aop1.php","identifiers":["aspect","methodinvocation","beforemethodexecution","example","$msg","hellow","debugaspect","getthis","getmethod","_method_","get_class","$isstatic","$name","json_encode","getarguments"]}
+,
+{"uri":"file:///var/www/html/designpattern1/coreconcept/ioc.php","identifiers":["bank","getrateofinterest","citibank","hdfcbank","bankservice","$bank","__construct","rateofinterest","bankservice1","rateofinterest1","readline"]}
+,
+{"uri":"file:///var/www/html/designpattern1/coreconcept/reflection.php","identifiers":["parent1","description","child","get_class","get_parent_class","icurrencyconverter","convert","gbpcurrencyconverter","$name","$rates","$var1","$var2","__construct","reflectionclass","getparentclass","getname","getinterfacenames","in_array","getmethods","print_r","hasmethod"]}
+]

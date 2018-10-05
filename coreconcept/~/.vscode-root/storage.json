@@ -23,6 +23,11 @@
             "label": "Ctrl+Shift+T",
             "isNative": true
         },
+        "workbench.action.openRecent": {
+            "id": "workbench.action.openRecent",
+            "label": "Ctrl+R",
+            "isNative": true
+        },
         "workbench.action.files.save": {
             "id": "workbench.action.files.save",
             "label": "Ctrl+S",
@@ -464,11 +469,32 @@
             "isNative": true
         }
     },
-    "pickerWorkingDir": "/var/www/html/designpattern1",
+    "pickerWorkingDir": "/var/www/html",
     "openedPathsList": {
         "workspaces2": [
+            "file:///var/www/html/designpattern1",
             "file:///var/www/html/designpattern1/coreconcept"
         ],
         "files2": []
+    },
+    "windowsState": {
+        "openedWindows": [],
+        "lastActiveWindow": {
+            "folderUri": {
+                "$mid": 1,
+                "fsPath": "/var/www/html/designpattern1",
+                "external": "file:///var/www/html/designpattern1",
+                "path": "/var/www/html/designpattern1",
+                "scheme": "file"
+            },
+            "backupPath": "/var/www/html/designpattern1/coreconcept/~/.vscode-root/Backups/763512b060a371033b18a4334b6f58f4",
+            "uiState": {
+                "mode": 0,
+                "x": 65,
+                "y": 24,
+                "width": 1301,
+                "height": 744
+            }
+        }
     }
 }
